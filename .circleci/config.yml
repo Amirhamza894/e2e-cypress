@@ -1,13 +1,22 @@
 version: 2.1
 orbs:
   cypress: cypress-io/cypress@2.2.0
+
 workflows:
   build:
     jobs:
       - cypress/run:
           name: 'e2e_OLX-BH_functional-sanity'
           store_artifacts: true
-          
+      - cypress/run:
+          name: 'e2e_FrontEnd'
+          command: npx cypress run --spec "cypress/integration/e2e/FrontEnd/**/*.cy.js"
+          store_artifacts: true
+      - cypress/run:
+          name: 'e2e_Visuals'
+          command: npx cypress run --spec "cypress/integration/e2e/visualSpecs/**/*.js"
+          store_artifacts: true
+
   daily-run-workflow:
     triggers:
       - schedule:
@@ -20,4 +29,6 @@ workflows:
     jobs:
       - cypress/run:
           name: 'e2e_scheduled_functional-sanity_OLX-BH'
-          
+      - cypress/run:
+          name: 'e2e_scheduled_visuals'
+          command: npx cypress run --spec "cypress/integration/e2e/visualSpecs/**/*.js"
