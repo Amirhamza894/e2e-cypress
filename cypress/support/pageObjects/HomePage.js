@@ -30,18 +30,23 @@ class HomePage{
     logut() {
         return cy.get("div[aria-label$='Logout']")
     }
+    
     languageButton(){
         return cy.get('._39a8843c.cf485b3b')
     }
+    
     profileIcon(){
         return cy.get('._0559c5ad._624c3ae3')
     }
+    
     sellButton(){
         return cy.get('._1075545d > ._34a7409b')
     }
+    
     listingClick(){
         return cy.get('._459428ad').eq(0)
     }
+    
     myAds(){
         return cy.get('img[alt="My Ads"]')
     }
