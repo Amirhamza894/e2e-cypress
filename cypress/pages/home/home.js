@@ -17,6 +17,7 @@ class home{
     FavoriteIcon(){
         return cy.get('._3c2d02e2')
     }
+    
     MarkedAsFavorite(){
         return cy.get('[alt="favoriteIconSelected"]')
     }
