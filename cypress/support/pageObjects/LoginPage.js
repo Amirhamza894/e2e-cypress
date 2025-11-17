@@ -26,7 +26,6 @@ class LoginObjects {
 
     invalidLoginError(){
         return cy.get('.c45bea97 > ._8918c0a8')
-
     }
 }
 
