@@ -36,6 +36,7 @@ beforeEach( function() {
   window.logCalls = 1;
   window.testFlow = [];
 });
+
 // *****************************************************************************
 Cypress.Commands.overwrite('log', (...args) => {
 
