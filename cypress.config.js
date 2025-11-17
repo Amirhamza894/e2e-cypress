@@ -27,6 +27,7 @@ module.exports = defineConfig({
     // Default is 0
     "openMode": 0
   }
+  
 });
 
 require('@applitools/eyes-cypress')(module);
