@@ -11,6 +11,7 @@ class locations {
     LocationOnAdCard() {
         return cy.get('.b384f4f3 > ul > li > article > div:nth-child(2) > div:nth-child(3)')
     }
+    
 }
 
 export default locations;
