@@ -9,6 +9,7 @@ describe('Login', () => {
   
     beforeEach(() => {
       cy.restoreLocalStorage();
+        
   });
 
   //skipping it because it in failing on CircleCI
