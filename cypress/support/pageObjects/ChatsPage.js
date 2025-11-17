@@ -9,7 +9,6 @@ class ChatsPage{
     sendChatBtn(){
         return cy.get('._362df5b9._2ed5cefa.d93081b2')
     }
-
 }
 
 export default ChatsPage;
