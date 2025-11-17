@@ -27,6 +27,7 @@ class payments {
     packages() {
         return cy.get('._1075545d._1cfa8ae9.d059c029')
     }
+    
     packagesCheckpoint() {
         return cy.get("[type='checkbox']")
     }
