@@ -30,6 +30,7 @@ class login {
         return cy.get(pageObjectsLogin.error_invalid_login)
 
     }
+    
 }
 
 export default login
