@@ -13,6 +13,7 @@ describe('Chats Cases', () => {
         .then((utilityData) => {
         utility = utilityData
         return cy.wrap(utility)
+            
       })
 
       cy.fixture('utilityData').then((utilityData) => {
