@@ -191,12 +191,6 @@ npx cypress run
 
 ---
 
-## 👤 Contact
-
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/YOUR-LINKEDIN)
-- GitHub Test Project Execution: [e2e-cypress Repo](https://github.com/Amirhamza894/e2e-cypress)
-- Expected Salary: _(Add your salary range here before submission)_
-
 ---
 
 **_Ready to adapt, optimize, and drive quality at scale!_**
