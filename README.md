@@ -6,7 +6,7 @@ This repository demonstrates a **robust test automation foundation** using [Cypr
 
 ## 🚚 Chosen Application for Automation
 
-**Test Application:** [Sauce Demo](https://www.saucedemo.com/)  
+**Test Application:** (https://stage.olx-bh.run/en)
 A public sample web application used for e-commerce workflows.
 
 ---
