@@ -27,5 +27,6 @@ describe('OLX Wallet', () => {
             cy.log(walletBalance)
         })
     })
+        
 })
 })
