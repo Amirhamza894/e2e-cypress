@@ -12,6 +12,7 @@ describe('Verifing arabic language of olx-lb', ()=> {
       cy.fixture("utilityData.json").then((utilityData) => {
         utility = utilityData
       return cy.wrap(utility)
+          
       })
     })
 
