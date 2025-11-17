@@ -7,7 +7,6 @@ class DetailPage{
     reportThisAd(){
         return cy.get('.cd2c242b.ec6bac67')
     }
-
 }
 
 export default DetailPage;
